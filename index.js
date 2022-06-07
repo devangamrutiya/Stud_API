@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 app.use('/api',route)
 
 app.listen(3004,()=>{
-    console.log("Server started")
+    console.log("Server Running")
 })
 }).catch((err)=>{
     console.log(err);
